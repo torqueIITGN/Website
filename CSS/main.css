@@ -1,0 +1,231 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    padding: 0;
+    margin: 0;
+}
+
+.navbar-style{
+    background-color: #fff;
+    padding: 20px;
+}
+
+.navbrand-style{
+    font-family: 'Inter', sans-serif;
+    color: #010038 !important;
+    font-weight: 600;
+}
+
+.navitem-style{
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    color: #7F88A9 !important;
+}
+
+.navitem-style:hover{
+    color: #394FE1 !important;
+}
+
+.navitem-style:active{
+    color: #394FE1 !important;
+}
+
+.navbutton-style{
+    font-family: 'Inter', sans-serif;
+    color: #fff;
+    font-size: 90%;
+    background-color: #394FE1;
+    border-color: #394FE1;
+    border-radius: 10px;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.navbutton-style:hover{
+    color: #fff;
+    background-color: rgb(37, 61, 223);
+    border-color: rgb(37, 61, 223);
+}
+
+.navbutton-style:focus{
+    color: #fff;
+    background-color: rgb(37, 61, 223);
+    border-color: rgb(37, 61, 223);
+}
+
+.navbutton-style:active{
+    color: #fff;
+    background-color: rgb(37, 61, 223);
+    border-color: rgb(37, 61, 223);
+}
+
+.searchbox{
+    border-radius: 10px;
+    font-family: 'Inter', sans-serif;
+    font-size: 90%;
+}
+
+#contribute-section{
+    padding: 8%;
+    padding-left: 10%;
+    padding-right: 10%;
+    background-color: #FFF;
+}
+
+.contribute-card{
+    background-color: #FFF4DE;
+    border-radius: 20px;
+    padding: 4%;
+    padding-top:7%;
+    padding-bottom:7%;
+    text-align: center;
+    align-content: center;
+}
+
+.contribute-form{
+    border-radius: 10px;
+    font-family: 'Inter', sans-serif;
+    color: #7F88A9 !important;
+    width: 70%;
+    margin-top: 4%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    border-width: 0.2;
+}
+
+#footer-section{
+    padding: 6%;
+    padding-bottom: 3%;
+    background-color: #010038;
+    text-align: center;
+}
+
+.footer-form{
+    border-radius: 10px;
+    font-family: 'Inter', sans-serif;
+    color: #7F88A9 !important;
+    width: 40%;
+    height: 150px;
+    margin-top: 3%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+#footer-section h2{
+    font-family: 'Inter', sans-serif;
+    color: #fff !important;
+    font-weight: 600;
+    font-size: 400%;
+}
+
+.footer-text{
+    text-align: left;
+    padding-left: 10%;
+    margin-top: 8%;
+}
+
+.footer-text h3 {
+    font-family: 'Inter', sans-serif;
+    color: #fff !important;
+    font-weight: 400;
+    font-size: 140%;
+    margin-bottom: 10%;
+}
+
+.footer-text i {
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.footer-text i:hover {
+    padding-left: 2%;
+    padding-right: 2%;
+    color: rgb(190, 195, 212);
+}
+
+.footer-text i:active {
+    padding-left: 2%;
+    padding-right: 2%;
+    color: rgb(190, 195, 212);
+}
+
+.footer-text a:link {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    color: #7F88A9 !important;
+    text-decoration: none;
+}
+
+.footer-text a:visited {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    color: #7F88A9 !important;
+    text-decoration: none;
+}
+
+.footer-text a:hover {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    color: #7F88A9 !important;
+    text-decoration: underline;
+}
+
+.footer-text a:active {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    color: #7F88A9 !important;
+    text-decoration: underline;
+}
+
+#copyright-section{
+    padding-top: 1%;
+    padding-bottom: 0.3%;
+    background-color: #15104B;
+    text-align: center;
+    vertical-align: middle;
+}
+
+h1 {
+    font-family: 'Inter', sans-serif;
+    color: #010038 !important;
+    font-weight: 600;
+    font-size: 500%;
+}
+
+h2 {
+    font-family: 'Inter', sans-serif;
+    color: #010038 !important;
+    font-weight: 600;
+    font-size: 400%;
+}
+
+h3 {
+    font-family: 'Inter', sans-serif;
+    color: #394FE1 !important;
+    font-weight: 500;
+    font-size: 140%;
+}
+
+p{
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    color: #7F88A9 !important;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #91A7E2 !important;
+    opacity: 1 !important; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #91A7E2 !important;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+    color: #91A7E2 !important;
+}
