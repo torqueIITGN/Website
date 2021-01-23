@@ -53,3 +53,9 @@
 .right{
     margin-left: 2%;
 }
+
+@media screen and (max-width: 600px){
+    .article-card h4{
+        font-size: 120%;
+    }
+}

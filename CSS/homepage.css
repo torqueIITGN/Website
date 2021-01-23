@@ -16,7 +16,7 @@
 }
 
 .landing-section-text h1{
-    font-size: 6.5vw;
+    font-size: 550%;
 }
 
 .landing-section-img{
@@ -34,4 +34,10 @@
     padding: 16%;
     text-align: center;
     background-color: #EFF5FF;
+}
+
+@media screen and (max-width: 600px){
+    .landing-section-text h1{
+        font-size: 240%;
+    }
 }
