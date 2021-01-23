@@ -2,6 +2,7 @@
     padding: 6%;
     padding-top: 10%;
     padding-left: 10%;
+    background-color: #fff;
 }
 
 .landing-section-text button{
@@ -39,5 +40,8 @@
 @media screen and (max-width: 600px){
     .landing-section-text h1{
         font-size: 240%;
+    }
+    #landing-section{
+        padding-top: 22%;
     }
 }

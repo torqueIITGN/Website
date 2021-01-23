@@ -1,6 +1,7 @@
 #title-section{
     padding: 6%;
     padding-top: 10%;
+    background-color: #fff;
 }
 
 .title-section-text{
@@ -57,5 +58,8 @@
 @media screen and (max-width: 600px){
     .article-card h4{
         font-size: 120%;
+    }
+    #title-section{
+        padding-top: 22%;
     }
 }
