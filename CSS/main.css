@@ -145,7 +145,7 @@ html{
     font-family: 'Inter', sans-serif;
     color: #fff !important;
     font-weight: 600;
-    font-size: 400%;
+    font-size: 4.5vw;
 }
 
 .footer-text{
@@ -158,7 +158,7 @@ html{
     font-family: 'Inter', sans-serif;
     color: #fff !important;
     font-weight: 400;
-    font-size: 140%;
+    font-size: 1.65vw;
     margin-bottom: 10%;
 }
 
@@ -219,21 +219,21 @@ h1 {
     font-family: 'Inter', sans-serif;
     color: #010038 !important;
     font-weight: 600;
-    font-size: 500%;
+    font-size: 6vw;
 }
 
 h2 {
     font-family: 'Inter', sans-serif;
     color: #010038 !important;
     font-weight: 600;
-    font-size: 400%;
+    font-size: 4.5vw;
 }
 
 h3 {
     font-family: 'Inter', sans-serif;
     color: #394FE1 !important;
     font-weight: 500;
-    font-size: 140%;
+    font-size: 1.65vw;
 }
 
 p{
