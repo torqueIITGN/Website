@@ -24,8 +24,8 @@
     border-radius: 15px;
     padding: 6%;
     box-shadow: 0 5px 6px 5px rgba(0,0,0,.04);
-    margin-top: 10%;
-    margin-bottom: 12%;
+    margin-top: 12%;
+    margin-bottom: 15%;
 }
 
 .article-card h4{
@@ -48,11 +48,13 @@
 }
 
 .left{
+    margin-left: 2%;
     margin-right: 2%;
 }
 
 .right{
     margin-left: 2%;
+    margin-right: 2%;
 }
 
 @media screen and (max-width: 600px){
