@@ -26,9 +26,41 @@
 }
 
 #editors-section{
-    padding: 16%;
-    text-align: center;
+    padding: 6%;
     background-color: #EFF5FF;
+}
+
+.image-card-row{
+    padding-top: 3%;
+}
+
+.image-card{
+    position:relative;
+}
+
+.image-card img{
+    z-index: 0;
+    border-radius: 15px;
+    box-shadow: 0 5px 6px 5px rgba(0,0,0,.07);
+    height: auto;
+    width: 100%;
+}
+
+.image-card-text{
+    position:absolute;
+    left: 8%;
+    bottom: 2%;
+}
+
+.image-card-text h4{
+    font-family: 'Inter', sans-serif;
+    color: #fff !important;
+    font-weight: 600;
+    font-size: 200%;
+}
+
+.image-card-text p{
+    color: #fff !important;
 }
 
 #more-section{
