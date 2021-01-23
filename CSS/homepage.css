@@ -1,0 +1,37 @@
+#landing-section{
+    padding: 6%;
+    padding-top: 10%;
+    padding-left: 10%;
+}
+
+.landing-section-text button{
+    font-size: 100%;
+    padding: 2.5% 9% 2.5% 9%;
+    border-radius: 12px;
+}
+
+.landing-section-text{
+    margin-top: 7%;
+    margin-left: 0px;
+}
+
+.landing-section-text h1{
+    font-size: 550%;
+}
+
+.landing-section-img{
+    max-width: 100%;
+    height: auto;
+}
+
+#editors-section{
+    padding: 16%;
+    text-align: center;
+    background-color: #EFF5FF;
+}
+
+#more-section{
+    padding: 16%;
+    text-align: center;
+    background-color: #EFF5FF;
+}
