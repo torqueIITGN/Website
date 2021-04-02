@@ -63,10 +63,129 @@
     color: #fff !important;
 }
 
+.editor-card{
+    background-color: #FFF;
+    border-radius: 15px;
+    padding: 6%;
+    box-shadow: 0 5px 6px 5px rgba(0,0,0,.04);
+}
+
+.editor-card h4{
+    font-family: 'Inter', sans-serif;
+    color: #010038 !important;
+    font-weight: 600;
+    font-size: 200%;
+}
+
+.editor-card-item{
+    margin-top: 4%;
+}
+
+.editor-card-item a:link{
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    color: #394FE1 !important;
+    text-decoration: none;
+}
+
+.editor-card-item a:visited{
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    color: #394FE1 !important;
+    text-decoration: none;
+}
+
+.editor-card-item a:hover{
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    color: #394FE1 !important;
+    text-decoration: underline;
+}
+
+.editor-card-item a:active{
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    color: #394FE1 !important;
+    text-decoration: underline;
+}
+
+.editor-item-image img{
+    border-radius: 5px;
+    height: 65px;
+    width: 65px;
+    object-fit: cover;
+}
+
 #more-section{
-    padding: 16%;
-    text-align: center;
+    padding: 6%;
     background-color: #EFF5FF;
+}
+
+.more-card{
+    background-color: #FFF;
+    border-radius: 15px;
+    padding: 6%;
+    box-shadow: 0 5px 6px 5px rgba(0,0,0,.04);
+    margin-top: 12%;
+    margin-bottom: 15%;
+}
+
+.more-card h4{
+    font-family: 'Inter', sans-serif;
+    color: #010038 !important;
+    font-weight: 600;
+    font-size: 200%;
+}
+
+.more-card img{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 3%;
+    margin-bottom: 5%;
+}
+
+.more-card a:link{
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    color: #394FE1 !important;
+    text-decoration: none;
+}
+
+.more-card a:visited{
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    color: #394FE1 !important;
+    text-decoration: none;
+}
+
+.more-card a:hover{
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    color: #394FE1 !important;
+    text-decoration: underline;
+}
+
+.more-card a:active{
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    color: #394FE1 !important;
+    text-decoration: underline;
+}
+
+
+.readingtime{
+    text-align: right;
+}
+
+.left{
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.right{
+    margin-left: 2%;
+    margin-right: 2%;
 }
 
 @media screen and (max-width: 600px){
