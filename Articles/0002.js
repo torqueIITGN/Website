@@ -1,0 +1,23 @@
+var data = {'title': 'Foreword', 'desc': 'Torque 3.0', 'img': '../Assets/2A.svg', 'imgCredit': '', 'time': '2 min', 'authorName': 'Team Torque', 'authorDesc': 'IIT Gandhinagar', 'authorImg': '../Assets/avatar.svg', 'articleContent': "<em>If you&rsquo;re someone who at midnight 31 Dec 2019 was celebrating high on the thought of making 2020 his/her year</em> - <strong>you&rsquo;re not alone!</strong><br><br>During the months of January and February when there was news of a novel virus burgeoning in China, the rest of the world acted complacent, thinking - huh! China needs to handle the virus. There was a possibility lurking around the corner that this novel disease could get out of control and spread like wildfire, but we felt comfortable rejecting that possibility.<br><br><strong>But things did go out of control -</strong><br>the novel coronavirus disease was declared a pandemic and several countries faced the wrath of the virus. The world economy experienced a huge blow and was brought down to its knees. Health systems collapsed. Death tolls surged.<br><br>In India, a 21 day nationwide lockdown was declared on May 24, 2020, to break the chain of the virus and curb its spread. It was iteratively extended, bringing this huge economy to a standstill, affecting 1.5 billion people.<br><br>It&rsquo;s been a year since the pandemic and we can say that we&rsquo;ve gotten used to it now! Work from home, which started as the ONLY seeming alternative, is now one of THE preferred alternatives by many even as the restrictions are eased. The online classes may or may not be welcomed by all students, though it seems as the only way out for continuing access to education. Online shopping was already a thing among people before the pandemic, but now it seems as THE ONLY thing - from grocery to everything, we&rsquo;ve surrendered ourselves (un)consciously to the internet and internet-based services, making it a preferred choice of lifestyle for some and lifeline for many.<br><br><strong>We&rsquo;re living in the New Normal. Of course, this isn't the first time when we&rsquo;ve settled post a crisis - the operating point has shifted many times but not as drastically as it did now post the Spanish flu pandemic.</strong><br><br>Settling in this new normal, our lifestyles and choices have taken a new way - with less (preferred?) social interaction, increasing mundanity, seemingly fleeting days and time, endless social media/online loop etc. <strong>We&rsquo;ve inadvertently succumbed to the pandemic blues.</strong> If, at some point of time you felt lost or anxious as to what&rsquo;s happening around you or feeling lost or discouraged or pessimistic about the future - you&rsquo;re not alone! We&rsquo;re biologically programmed to be social animals, and we&rsquo;ve surely been put in constrained environments for quite some time now. <br><br>In this edition of the TORQUE magazine, with the theme of <strong>&lsquo;Beating the (Pandemic) Blues&rsquo;</strong> we are talking about Resilience - resilience to keeping the work going and striving towards making this &lsquo;new normal&rsquo; more sustainable, safe, flexible and conscious. Also featured are some innovations which happened during the pandemic, the lessons learnt, and contemplating about the future - are we ready to face another pandemic?<br><br>", 'twitterShare': 'https://twitter.com/intent/tweet?url=URL_HERE&text=Check out this article from Torque:', 'fbShare': 'https://www.facebook.com/sharer/sharer.php?u=URL_HERE', 'prevArticle': '0001.html', 'articleNo': '0002', 'nextArticle': '0003.html'};
+
+window.onload = function(){
+    document.getElementById('article-title').innerHTML = data.title;
+    document.getElementById('article-desc').innerHTML = data.desc;
+    document.getElementById('article-img').src = data.img;
+    document.getElementById('img-src').innerHTML = data.imgCredit;
+    document.getElementById('article-time').innerHTML = '<i class="far fa-clock"></i> ' + data.time;
+    document.getElementById('author-name').innerHTML = data.authorName;
+    document.getElementById('author-desc').innerHTML = data.authorDesc;
+    document.getElementById('author-img').src = data.authorImg;
+    document.getElementById('article-text').innerHTML = data.articleContent;
+    document.getElementById('share-twitter').href = data.twitterShare.replace("URL_HERE", document.URL);
+    document.getElementById('share-fb').href = data.fbShare.replace("URL_HERE", document.URL);
+};
+
+function prev(){
+    window.location.href = data.prevArticle;
+}
+
+function next(){
+    window.location.href = data.nextArticle;
+}
