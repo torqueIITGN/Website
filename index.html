@@ -35,7 +35,7 @@
                     </div>
                 </div>
                 <form class="d-flex">
-                    <button class="btn btn-primary navbutton-style px-4 py-2" type="button">Subscribe</button>
+                    <button class="btn btn-primary navbutton-style px-4 py-2" id="subscribeButton0" type="button" onclick="subscribe()">Subscribe</button>
                 </form>
             </div>
         </nav>
@@ -45,7 +45,7 @@
                     <div class="col-6 landing-section-text">
                         <h1>IITGN's Magazine</h1>
                         <p>Subscribe to receive a copy directly in your inbox</p>
-                        <button class="btn btn-primary navbutton-style" type="button">Subscribe</button>
+                        <button class="btn btn-primary navbutton-style" type="button" onclick="subscribe()">Subscribe</button>
                     </div>
                     <div class="col-6 landing-section-img">
                         <img src="Assets/Creativity-pana.svg" alt="Image couldn't be loaded">
@@ -226,10 +226,13 @@
                 <h2>Contribute To Torque</h2>
                 <h3>Do you enjoy writing? Do you wish to contribute articles to Torque?</h3>
                 <h3>Enter your email address below to get in touch with us</h3>
-                <div class="container email-form">
-                    <input type="email" class="form-control contribute-form mx-auto" aria-describedby="emailHelp" placeholder="Email">
-                    <button type="submit" class="btn btn-primary navbutton-style email-button">Submit</button>
-                </div>
+                <form class="gform" method="POST" data-email="torque@iitgn.ac.in"
+                action="https://script.google.com/macros/s/AKfycbyXJ2YGO6gy9t5tPmMgG6MAPeZFt-Vf9Oi4R7PT69Wx3Ysa0lVO/exec">
+                    <div class="container email-form">
+                        <input type="email" name="email" class="form-control contribute-form mx-auto" aria-describedby="emailHelp" placeholder="Email">
+                        <button type="submit" class="btn btn-primary navbutton-style email-button" onclick="contributeSubmit()">Submit</button>
+                    </div>
+                </form>
             </div>
         </section>
 
@@ -237,10 +240,13 @@
             <div class="container">
                 <h2>Got Feedback?</h2>
                 <h3>Let us know</h3>
-                <div class="feedback-form">
-                    <textarea class="form-control form-control-lg mx-auto footer-form" rows="3" placeholder=""></textarea>
-                    <button type="submit" class="btn btn-primary navbutton-style feedback-button">Submit</button>
-                </div>
+                <form class="gform" method="POST" data-email="torque@iitgn.ac.in"
+                action="https://script.google.com/a/iitgn.ac.in/macros/s/AKfycbwkZBowQzQmsoBqFS_ytEUMQ5riNyHw3F9EIPc6gw/exec">
+                    <div class="feedback-form">
+                        <textarea name="feedback" class="form-control form-control-lg mx-auto footer-form" rows="3" placeholder=""></textarea>
+                        <button type="submit" class="btn btn-primary navbutton-style feedback-button" onclick="feedbackSubmit()">Submit</button>
+                    </div>
+                </form>
             </div>
             <div class="row footer-text">
                 <div class="col-3">
@@ -293,6 +299,6 @@
         <script src="https://kit.fontawesome.com/b2c5fc1abf.js" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-
+        <script data-cfasync="false" type="text/javascript" src="JS/form-submission-handler.js"></script>
     </body>
 </html>

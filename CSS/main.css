@@ -283,5 +283,8 @@ p{
     .contribute-form{
         height: 40px !important;
     }
+    #subscribeButton0{
+        display: none;
+    }
 
 }

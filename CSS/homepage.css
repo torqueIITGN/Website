@@ -36,6 +36,8 @@
 
 .image-card{
     position:relative;
+    margin-top: 10px;
+    margin-bottom: 5px;
 }
 
 .image-card img{
@@ -67,6 +69,8 @@
     background-color: #FFF;
     border-radius: 15px;
     padding: 6%;
+    margin-top: 10px;
+    margin-bottom: 5px;
     box-shadow: 0 5px 6px 5px rgba(0,0,0,.04);
 }
 
