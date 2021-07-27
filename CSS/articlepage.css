@@ -1,0 +1,153 @@
+#article-section{
+    padding: 6%;
+    padding-top: 10%;
+    background-color: #fff;
+}
+
+#recommend-section{
+    padding: 8%;
+    background-color: #EFF5FF;
+}
+
+#contribute-section{
+    background-color: #EFF5FF !important;
+}
+
+#author-name{
+    color: #010038 !important;
+}
+
+.left-col{
+    text-align: center;
+}
+
+#article-content-row{
+    margin-top: 4%;
+}
+
+#article-img{
+    border-radius: 15px;
+}
+
+#author-img{
+    padding: 3%;
+    margin-bottom: 3%;
+}
+
+.article-subtitle{
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+#author-img{
+    width: 90%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+#article-text{
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    color: #1d1d1d !important;
+    font-size: 120%;
+}
+
+.right-col i {
+    padding-left: 2%;
+    padding-right: 2%;
+    color: #7F88A9;
+}
+
+.right-col i:hover {
+    padding-left: 2%;
+    padding-right: 2%;
+    color: #666c81;
+}
+
+.right-col i:active {
+    padding-left: 2%;
+    padding-right: 2%;
+    color: #666c81;
+}
+
+.article-closer{
+    padding-top: 3%;
+}
+
+.subscribe{
+    font-family: 'Inter', sans-serif;
+    width: 100%;
+    color: #fff;
+    font-size: 90%;
+    background-color: #7F88A9;
+    border-color: #7F88A9;
+    border-radius: 10px;
+}
+
+.subscribe:hover{
+    color: #fff;
+    background-color: #666c81;
+    border-color: #666c81;
+}
+
+.subscribe:focus{
+    color: #fff;
+    background-color: #666c81;
+    border-color: #666c81;
+}
+
+.subscribe:active{
+    color: #fff;
+    background-color: #666c81;
+    border-color: #666c81;
+}
+
+.prevnext{
+    font-family: 'Inter', sans-serif;
+    width: 100%;
+    color: #fff;
+    font-size: 90%;
+    background-color: #394FE1;
+    border-color: #394FE1;
+    border-radius: 10px;
+}
+
+.prevnext:hover{
+    color: #fff;
+    background-color: rgb(37, 61, 223);
+    border-color: rgb(37, 61, 223);
+}
+
+.prevnext:focus{
+    color: #fff;
+    background-color: rgb(37, 61, 223);
+    border-color: rgb(37, 61, 223);
+}
+
+.prevnext:active{
+    color: #fff;
+    background-color: rgb(37, 61, 223);
+    border-color: rgb(37, 61, 223);
+}
+
+hr{
+    color: #7F88A9; /* old IE */
+    background-color: #7F88A9; /* Modern Browsers */
+}
+
+#recommend-section h4{
+    font-family: 'Inter', sans-serif;
+    color: #010038 !important;
+    font-weight: 600;
+    font-size: 200%;
+}
+
+@media screen and (max-width: 600px){
+    #article-section{
+        padding-top: 22%;
+    }
+    #author-img{
+        width: 50%;
+    }
+
+}
