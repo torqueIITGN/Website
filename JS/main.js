@@ -11,3 +11,5 @@ function feedbackSubmit() {
 function subscribe() {
     window.location.href = 'https://forms.gle/ooeV6A3gxysKgsjh9';
 }
+
+window.onerror = function(message) { alert(message); return true; };
