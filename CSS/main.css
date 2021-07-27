@@ -286,5 +286,8 @@ p{
     #subscribeButton0{
         display: none;
     }
+    #logo{
+        height: 150px !important;
+    }
 
 }
