@@ -1,4 +1,4 @@
-import sys
+from math import floor
 import os
 
 def convertToName(i):
@@ -8,6 +8,20 @@ def convertToName(i):
         return ((4-nDigits)*'0' + str(i))
     else:
         return str(i)
+
+def readingTime(content:str):
+    nWords = len(content.replace('<br>', ' ').split())
+
+    periods = int(nWords/100)
+
+    if periods == 1:
+        return ('1 min')
+    if periods%2:
+        mins = floor(periods/2)
+        return (mins + ' min 30 s')
+    else:
+        mins = int(periods/2)
+        return (mins + ' min')
 
 class Article():
     def __init__(self):
@@ -42,7 +56,6 @@ class Article():
         self.data['desc'] = input('desc:')
         self.data['img'] = input('img:')
         self.data['imgCredit'] = input('imgCredit:')
-        self.data['time'] = input('time:')
         self.data['authorName'] = input('authorName:')
         self.data['authorDesc'] = input('authorDesc:')
         self.data['authorImg'] = input('authorImg:')
@@ -50,6 +63,7 @@ class Article():
         articleFile = open('content.txt', 'r')
         self.data['articleContent'] = articleFile.read()
         articleFile.close()
+        self.data['time'] = readingTime(self.data['articleContent'])
 
     def createJS(self):
         JSFile = open("0000.js", "r")
