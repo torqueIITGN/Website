@@ -14,14 +14,14 @@ def readingTime(content:str):
 
     periods = int(nWords/100)
 
-    if periods == 1:
+    if periods <= 1:
         return ('1 min')
     if periods%2:
         mins = floor(periods/2)
-        return (mins + ' min 30 s')
+        return (str(mins) + ' min 30 s')
     else:
         mins = int(periods/2)
-        return (mins + ' min')
+        return (str(mins) + ' min')
 
 class Article():
     def __init__(self):
