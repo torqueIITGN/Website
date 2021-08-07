@@ -125,12 +125,12 @@
 
 #medium-embed{
     padding: 6%;
-    background-color: #EFF5FF;
+    background-color: #fff;
 }
 
 #facebook-embed{
     padding: 6%;
-    background-color: #fff;
+    background-color: #EFF5FF;
 }
 
 @media screen and (max-width: 600px){
