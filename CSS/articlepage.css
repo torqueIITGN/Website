@@ -149,6 +149,17 @@ hr{
     font-size: 200%;
 }
 
+applause-button{
+    width: 60px !important;
+    height: 60px !important;
+    color:#394FE1 !important;
+}
+
+.article-closer p{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
 @media screen and (max-width: 600px){
     #article-section{
         padding-top: 22%;
