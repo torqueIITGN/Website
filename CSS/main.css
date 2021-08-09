@@ -34,6 +34,12 @@ html{
     color: #394FE1 !important;
 }
 
+.active{
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    color: #394FE1 !important;
+}
+
 .navbutton-style{
     font-family: 'Inter', sans-serif;
     color: #fff;
