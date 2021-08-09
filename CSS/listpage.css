@@ -140,6 +140,12 @@
 
 #embed-section object{
     margin-top: 2%;
+    border-radius: 15px;
+}
+
+#embed-section iframe{
+    margin-top: 2%;
+    border-radius: 15px;
 }
 
 @media screen and (max-width: 600px){
