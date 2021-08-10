@@ -32,6 +32,10 @@
     width: 66% !important;
 }
 
+#img-src{
+    margin-left: 17%;
+}
+
 .para-img{
     border-radius: 12px;
     width: 100%;
