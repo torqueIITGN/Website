@@ -21,6 +21,7 @@
 }
 
 .landing-section-img{
+    margin-top: 20px;
     max-width: 100%;
     height: auto;
 }
@@ -38,6 +39,7 @@
     position:relative;
     margin-top: 10px;
     margin-bottom: 5px;
+    padding: 0 !important;
 }
 
 .image-card img{
@@ -50,7 +52,7 @@
 
 .image-card-text{
     position:absolute;
-    left: 8%;
+    left: 6%;
     bottom: 2%;
 }
 
@@ -198,5 +200,14 @@
     }
     #landing-section{
         padding-top: 22%;
+    }
+    .more-card h4{
+        font-size: 120%;
+    }
+    .editor-card h4{
+        font-size: 120%;
+    }
+    .image-card h4{
+        font-size: 120%;
     }
 }
