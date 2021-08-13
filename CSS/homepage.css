@@ -56,6 +56,13 @@
     bottom: 2%;
 }
 
+.image-card-text h4 {
+    text-shadow: 0px 3px 3px #010038;
+}
+.image-card-text p {
+    text-shadow: 0px 2px 2px #010038;
+}
+
 .image-card-text h4{
     font-family: 'Inter', sans-serif;
     color: #fff !important;
