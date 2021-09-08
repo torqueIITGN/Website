@@ -289,7 +289,7 @@ p{
     .contribute-form{
         height: 40px !important;
     }
-    #subscribeButton0{
+    nav .d-flex{
         width: 0 !important;
         height: 0 !important;
         margin: 0 !important;
