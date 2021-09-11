@@ -275,7 +275,7 @@ p{
         font-size: 160%;
     }
     .footer-text h3{
-        font-size: 90%;
+        font-size: 1rem;
     }
     p{
         font-size: 90%;
@@ -301,3 +301,41 @@ p{
     }
 
 }
+
+@media screen and (max-width: 600px) {
+    .footer-form {
+      width: 80vw;
+    }
+    .feedback-button{
+        position: absolute;
+        bottom: -15%;
+        left: 74%;
+        font-size: 120%;
+    }
+    .footer-text{
+        display: grid;
+        justify-content: center;
+    }
+    .col-3{
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        padding: 1rem;
+    }
+    .col-3 h3{
+        width: 100%;
+    }
+    .col-3 p{
+        margin: .5rem;
+    }
+    #footer-section .text-truncate .row{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+    #footer-section .text-truncate .row div{
+        width: 25%;
+        justify-content: center;
+    }
+  }
