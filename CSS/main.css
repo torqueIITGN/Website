@@ -142,7 +142,7 @@ html{
 }
 
 .feedback-button{
-    position: absolute;
+    /* position: absolute; */
     bottom: -15%;
     left: 64%;
     font-size: 120%;
@@ -307,7 +307,7 @@ p{
       width: 80vw;
     }
     .feedback-button{
-        position: absolute;
+        /* position: absolute; */
         bottom: -15%;
         left: 74%;
         font-size: 120%;
